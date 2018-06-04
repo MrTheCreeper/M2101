@@ -3,8 +3,8 @@
 
 int main(void){
 	char hello[] = "Bonjour";
-	char bye[11] = " Au revoir";
-	char numbers[9]="012345678";
+	char bye[] = " Au revoir";
+	char numbers[]="012345678";
 	
 	printf("hello: %s\n",hello);
 	printf("numbers: %s\n",numbers);
